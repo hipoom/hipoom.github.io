@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2024-05-29T16:39:35.857Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.18 Chrome/120.0.6099.199 Electron/28.1.2 Safari/537.36" etag="xeGClR1vkltBlbzVmt7y" version="22.1.18" type="device">
+  <diagram name="第 1 页" id="_gNiT-tmBhUaY3uQYpqy">
+    <mxGraphModel dx="815" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IEbptN1qwg81yh14mzyM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEbptN1qwg81yh14mzyM-1" target="IEbptN1qwg81yh14mzyM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEbptN1qwg81yh14mzyM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IEbptN1qwg81yh14mzyM-1" target="IEbptN1qwg81yh14mzyM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEbptN1qwg81yh14mzyM-1" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;IFruit&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IEbptN1qwg81yh14mzyM-2" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Apple&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IEbptN1qwg81yh14mzyM-3" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Banana&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="200" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IEbptN1qwg81yh14mzyM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="IEbptN1qwg81yh14mzyM-6" target="IEbptN1qwg81yh14mzyM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEbptN1qwg81yh14mzyM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="IEbptN1qwg81yh14mzyM-6" target="IEbptN1qwg81yh14mzyM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEbptN1qwg81yh14mzyM-6" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;FruitFactory&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IEbptN1qwg81yh14mzyM-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="IEbptN1qwg81yh14mzyM-7" target="IEbptN1qwg81yh14mzyM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEbptN1qwg81yh14mzyM-7" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&quot;apple&quot;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IEbptN1qwg81yh14mzyM-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fff2cc;strokeColor=#d6b656;" edge="1" parent="1" source="IEbptN1qwg81yh14mzyM-8" target="IEbptN1qwg81yh14mzyM-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IEbptN1qwg81yh14mzyM-8" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&quot;banana&quot;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
