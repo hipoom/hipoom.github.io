@@ -22,6 +22,8 @@ categories: Android
             |-- View 的工作机制
             `-- 大图加载
         |-- Jetpack
+        |-- Android 特有的数据结构
+            |-- ArrayMap
         |-- 消息机制
             `-- epoll 机制
         |-- 跨进程通信
@@ -51,6 +53,7 @@ categories: Android
         |-- Retrofit
         `-- Glide
 |-- Java
+    |-- 线程安全。
 |-- Kotlin
 `-- 架构设计
     |-- 六种设计原则
