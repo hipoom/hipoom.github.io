@@ -53,6 +53,7 @@ categories: Android
         |-- Retrofit
         `-- Glide
 |-- Java
+    |-- 线程安全。
 |-- Kotlin
 `-- 架构设计
     |-- 六种设计原则
