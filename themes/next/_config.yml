@@ -102,6 +102,12 @@ scheme: Muse
 # scheme: Pisces
 #scheme: Gemini
 
+# 内容区域的宽度
+content-desktop: 700px
+# 屏幕超过 1600px 时，内容区域的宽度 
+content-desktop-large: 1200px
+
+
 # Dark Mode
 darkmode: false
 
