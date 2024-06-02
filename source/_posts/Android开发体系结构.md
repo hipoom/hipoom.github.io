@@ -17,7 +17,7 @@ categories: Android
 　　　　　　　　|-- ConstraintLayout</br>
 　　　　　　　　`-- CoordinatorLayout</br>
 　　　　　　|-- 属性动画</br>
-　　　　　　|-- 点击事件分发</br>
+　　　　　　|-- <a href="https://www.hipoom.com/2024/06/02/%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6%E7%9A%84%E5%88%86%E5%8F%91/">点击事件分发</a></br>
 　　　　　　|-- Window 与 Surface</br>
 　　　　　　|-- View 的工作机制</br>
 　　　　　　`-- 大图加载</br>
