@@ -5,63 +5,85 @@ tags: Android
 categories: Android
 ---
 
-<p style="font-family: consolas; font-weight: 500; font-size: 15px; background-color: #EEE; border-radius: 4px; padding: 4px;">
-|-- Android</br>
-　　|-- Android 基础</br>
-　　　　|-- 四大组件</br>
-　　　　|-- UI 界面</br>
-　　　　　　|-- 常用控件</br>
-　　　　　　　　|-- SurfaceView</br>
-　　　　　　　　|-- TextureView</br>
-　　　　　　　　|-- RecyclerView</br>
-　　　　　　　　|-- ConstraintLayout</br>
-　　　　　　　　`-- CoordinatorLayout</br>
-　　　　　　|-- 属性动画</br>
-　　　　　　|-- <a href="https://www.hipoom.com/2024/06/02/%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6%E7%9A%84%E5%88%86%E5%8F%91/">点击事件分发</a></br>
-　　　　　　|-- Window 与 Surface</br>
-　　　　　　|-- View 的工作机制</br>
-　　　　　　`-- 大图加载</br>
-　　　　|-- Jetpack</br>
-　　　　|-- Android 特有的数据结构</br>
-　　　　　　|-- ArrayMap</br>
-　　　　|-- 消息机制</br>
-　　　　　　`-- epoll 机制</br>
-　　　　|-- 跨进程通信</br>
-　　　　　　|-- Binder 机制</br>
-　　　　　　`-- AIDL</br>
-　　　　|-- 多媒体</br>
-　　　　　　|-- 录音</br>
-　　　　　　|-- 音频播放</br>
-　　　　　　`-- 相机</br>
-　　|-- Android 源码</br>
-　　　　`-- Activity 启动流程</br>
-　　|-- Android 专项技术</br>
-　　　　|-- 性能优化</br>
-　　　　|-- 编译流程</br>
-　　　　|-- Gradle</br>
-　　　　|-- 插件化</br>
-　　　　|-- APT</br>
-　　　　|-- 代码插桩</br>
-　　　　`-- 安全性</br>
-　　　　　　|-- 代码混淆</br>
-　　　　　　|-- 签名</br>
-　　　　　　`-- 加固</br>
-　　|-- 开源库</br>
-　　　　|-- EventBus</br>
-　　　　|-- RxJava</br>
-　　　　|-- Okhttp</br>
-　　　　|-- Retrofit</br>
-　　　　`-- Glide</br>
-|-- Java</br>
-　　|-- 线程安全。</br>
-|-- Kotlin</br>
-`-- 架构设计</br>
-　　|-- <a href="https://www.hipoom.com/2024/06/01/%E5%85%AD%E7%A7%8D%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/">六种设计原则</a></br>
-　　|-- 23种设计模式</br>
-　　`-- 架构</br>
-　　　　|-- MVC</br>
-　　　　|-- MVP</br>
-　　　　|-- MVVM</br>
-　　　　|-- VIPER</br>
-　　　　`-- Clean</br>
+<style>
+    .pre-wrap {
+        white-space: pre-wrap;
+    }
+</style>
+
+
+<p class="pre-wrap" style="font-family: consolas; font-weight: 500; font-size: 15px; background-color: #EEE; border-radius: 4px; padding: 16px;"
+>|-- Android
+.&nbsp&nbsp&nbsp|-- Android 基础
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 四大组件
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- UI 界面
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 常用控件
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- SurfaceView
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- TextureView
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- RecyclerView
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- ConstraintLayout
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- CoordinatorLayout
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 属性动画
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- <a href="https://www.hipoom.com/2024/06/02/%E7%82%B9%E5%87%BB%E4%BA%8B%E4%BB%B6%E7%9A%84%E5%88%86%E5%8F%91/">点击事件分发</a>
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- Window 与 Surface
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- View 的工作机制
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 大图加载
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- Jetpack
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- Android 特有的数据结构
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- ArrayMap
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 消息机制
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- epoll 机制
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 跨进程通信
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- Binder 机制
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- AIDL
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 多媒体
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 录音
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 音频播放
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 相机
+.&nbsp&nbsp&nbsp|-- Android 源码
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- Activity 启动流程
+.&nbsp&nbsp&nbsp|-- Android 专项技术
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 性能优化
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- CPU 占用率
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 启动耗时优化
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 线程数量
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 线程数量监控
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 线程数量优化
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- FPS和卡顿优化
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 卡顿监控
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 主线程 IO 检测
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 内存优化
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp  |-- 内存泄露
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp  |-- 内存抖动
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp  `-- 内存占用
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- C++ 内存占用分析
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- Java 内存占用分析
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 编译流程
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- Gradle
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 插件化
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- APT
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 代码插桩
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 安全性
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 代码混淆
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 签名
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 加固
+.&nbsp&nbsp&nbsp|-- 开源库
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- EventBus
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- RxJava
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- Okhttp
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- Retrofit
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- Glide
+|-- Java
+.&nbsp&nbsp&nbsp|-- 线程安全
+.&nbsp&nbsp&nbsp`-- 数据结构
+|-- Kotlin
+`-- 架构设计
+.&nbsp&nbsp&nbsp|-- <a href="https://www.hipoom.com/2024/06/01/%E5%85%AD%E7%A7%8D%E8%AE%BE%E8%AE%A1%E5%8E%9F%E5%88%99/">六种设计原则</a>
+.&nbsp&nbsp&nbsp|-- <a href="https://www.hipoom.com/2024/05/26/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">23种设计模式</a>
+.&nbsp&nbsp&nbsp`-- 架构
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- MVC
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- MVP
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- MVVM
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- VIPER
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- Clean
 </p>
