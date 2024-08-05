@@ -66,6 +66,7 @@ categories: Android
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 安全性
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 代码混淆
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 签名
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- <a href="https://www.hipoom.com/2024/08/05/%E6%91%98%E8%A6%81%E5%92%8C%E7%AD%BE%E5%90%8D%E4%B8%8E%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6%E9%83%BD%E6%98%AF%E4%BB%80%E4%B9%88/">摘要、签名与数字证书都是什么？</a>
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 加固
 .&nbsp&nbsp&nbsp|-- 开源库
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- EventBus
