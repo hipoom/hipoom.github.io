@@ -44,8 +44,16 @@ categories: Android
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- Activity 启动流程
 .&nbsp&nbsp&nbsp|-- Android 专项技术
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 性能优化
-.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- CPU 占用率
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 启动耗时优化
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 定位耗时代码的方案
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- TraceView和Systrace
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- Perfetto
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 插桩统计函数耗时
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 其他优化方案
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 启动任务的有向无环图
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 在 Application 中预加载
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 首屏视图尽可能使用ViewStub
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- CPU 占用率
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 线程数量
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 线程数量监控
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 线程数量优化
