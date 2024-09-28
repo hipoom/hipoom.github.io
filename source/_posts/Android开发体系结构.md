@@ -60,12 +60,12 @@ categories: Android
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- FPS和卡顿优化
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 卡顿监控
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 主线程 IO 检测
-.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 内存优化
-.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp  |-- 内存泄露
-.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp  |-- 内存抖动
-.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp  `-- 内存占用
-.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- C++ 内存占用分析
-.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- Java 内存占用分析
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 内存优化
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 内存泄露
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 内存抖动
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- 内存占用
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- C++ 内存占用分析
+.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp`-- Java 内存占用分析
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 编译流程
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- Gradle
 .&nbsp&nbsp&nbsp.&nbsp&nbsp&nbsp|-- 插件化
